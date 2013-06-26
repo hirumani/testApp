@@ -1,0 +1,10 @@
+<Alloy>
+    <View id="titlebar" layout="horizontal">
+        <Label>SmartBreak</Label>
+        <ImageView image="/images/banner.png" />
+        <ImageView image="/images/cinema.png" />
+        <ImageView image="/images/wallet.png" />
+    </View>
+    
+    
+</Alloy>

@@ -1,0 +1,22 @@
+".container": {
+	backgroundColor:"white"
+},
+
+"View" : {
+top:0,
+left:0,
+height:Alloy.CFG.TitleBarWidth,
+width:500,
+backgroundColor:"orange"
+},
+
+"Label" : {
+color:"black"
+},
+
+
+"ImageView":{
+left:"13%",
+width:60,
+height:50
+}

@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="container" navBarHidden="true" exitOnClose="true">
+	    <Menu id="menu" platform="android">
+
+            <!-- Cannot specify node text.  Use attributes only. -->
+            <MenuItem id="menuItem" title="Profile" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" onClick="showProfileMenu" />
+            <MenuItem id="menuItem" title="Cash" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" />
+            <MenuItem id="menuItem" title="Catagories" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" onClick="showCatagoryMenu" />
+            <MenuItem id="menuItem" title="FAQ" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" />
+            <MenuItem id="menuItem" title="Help" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" />
+            <MenuItem id="menuItem" title="Refer To Friends" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" />
+        </Menu>
+	    <Require src="titlebar"></Require>
+		<Label id="label"  onClick="doClick">Hello, World</Label>
+	</Window>
+</Alloy>    

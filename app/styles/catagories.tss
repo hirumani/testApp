@@ -1,0 +1,6 @@
+".container": {
+	backgroundColor: "orange",
+	height: 600,
+	width: 400,
+	top: 200
+}

@@ -1,0 +1,19 @@
+<Alloy>
+    
+	<Window class="container" id="profileWindow">
+	   <Require src="titlebar"></Require>
+	    <View id="profileEmailView" borderColor="orange" layout="vertical">
+	        
+	        <Label>Email ID</Label>
+	        <TextField></TextField>
+	        
+	    </View>
+
+        <View borderColor="orange">
+            
+             <Label>Full Name</Label>
+            <TextField></TextField>
+            
+        </View>	    
+	</Window>
+</Alloy>
