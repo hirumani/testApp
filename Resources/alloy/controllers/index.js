@@ -24,56 +24,56 @@ function Controller() {
     });
     $.__views.index && $.addTopLevelView($.__views.index);
     $.__views.index.activity.onCreateOptionsMenu = function(e) {
-        var __alloyId13 = {
+        var __alloyId15 = {
             id: "menuItem",
             title: "Profile",
             showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
         };
-        $.__views.menuItem = e.menu.add(_.pick(__alloyId13, Alloy.Android.menuItemCreateArgs));
-        $.__views.menuItem.applyProperties(_.omit(__alloyId13, Alloy.Android.menuItemCreateArgs));
-        showProfileMenu ? $.__views.menuItem.addEventListener("click", showProfileMenu) : __defers["$.__views.menuItem!click!showProfileMenu"] = true;
-        var __alloyId14 = {
-            id: "menuItem",
-            title: "Cash",
-            showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
-        };
-        $.__views.menuItem = e.menu.add(_.pick(__alloyId14, Alloy.Android.menuItemCreateArgs));
-        $.__views.menuItem.applyProperties(_.omit(__alloyId14, Alloy.Android.menuItemCreateArgs));
-        var __alloyId15 = {
-            id: "menuItem",
-            title: "Catagories",
-            showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
-        };
         $.__views.menuItem = e.menu.add(_.pick(__alloyId15, Alloy.Android.menuItemCreateArgs));
         $.__views.menuItem.applyProperties(_.omit(__alloyId15, Alloy.Android.menuItemCreateArgs));
-        showCatagoryMenu ? $.__views.menuItem.addEventListener("click", showCatagoryMenu) : __defers["$.__views.menuItem!click!showCatagoryMenu"] = true;
+        showProfileMenu ? $.__views.menuItem.addEventListener("click", showProfileMenu) : __defers["$.__views.menuItem!click!showProfileMenu"] = true;
         var __alloyId16 = {
             id: "menuItem",
-            title: "FAQ",
+            title: "Cash",
             showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
         };
         $.__views.menuItem = e.menu.add(_.pick(__alloyId16, Alloy.Android.menuItemCreateArgs));
         $.__views.menuItem.applyProperties(_.omit(__alloyId16, Alloy.Android.menuItemCreateArgs));
         var __alloyId17 = {
             id: "menuItem",
-            title: "Help",
+            title: "Catagories",
             showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
         };
         $.__views.menuItem = e.menu.add(_.pick(__alloyId17, Alloy.Android.menuItemCreateArgs));
         $.__views.menuItem.applyProperties(_.omit(__alloyId17, Alloy.Android.menuItemCreateArgs));
+        showCatagoryMenu ? $.__views.menuItem.addEventListener("click", showCatagoryMenu) : __defers["$.__views.menuItem!click!showCatagoryMenu"] = true;
         var __alloyId18 = {
             id: "menuItem",
-            title: "Refer To Friends",
+            title: "FAQ",
             showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
         };
         $.__views.menuItem = e.menu.add(_.pick(__alloyId18, Alloy.Android.menuItemCreateArgs));
         $.__views.menuItem.applyProperties(_.omit(__alloyId18, Alloy.Android.menuItemCreateArgs));
+        var __alloyId19 = {
+            id: "menuItem",
+            title: "Help",
+            showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
+        };
+        $.__views.menuItem = e.menu.add(_.pick(__alloyId19, Alloy.Android.menuItemCreateArgs));
+        $.__views.menuItem.applyProperties(_.omit(__alloyId19, Alloy.Android.menuItemCreateArgs));
+        var __alloyId20 = {
+            id: "menuItem",
+            title: "Refer To Friends",
+            showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
+        };
+        $.__views.menuItem = e.menu.add(_.pick(__alloyId20, Alloy.Android.menuItemCreateArgs));
+        $.__views.menuItem.applyProperties(_.omit(__alloyId20, Alloy.Android.menuItemCreateArgs));
     };
-    $.__views.__alloyId19 = Alloy.createController("titlebar", {
-        id: "__alloyId19",
+    $.__views.__alloyId21 = Alloy.createController("titlebar", {
+        id: "__alloyId21",
         __parentSymbol: $.__views.index
     });
-    $.__views.__alloyId19.setParent($.__views.index);
+    $.__views.__alloyId21.setParent($.__views.index);
     $.__views.label = Ti.UI.createLabel({
         width: Ti.UI.SIZE,
         height: Ti.UI.SIZE,

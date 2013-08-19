@@ -1,19 +1,35 @@
 <Alloy>
     
-	<Window class="container" id="profileWindow">
+	<Window class="container" id="profileWindow" layout="vertical"   >
 	   <Require src="titlebar"></Require>
-	    <View id="profileEmailView" borderColor="orange" layout="vertical">
-	        
-	        <Label>Email ID</Label>
-	        <TextField></TextField>
-	        
-	    </View>
+	    <TableView id="tableProfile" headerTitle="Profile" >
+            
+            <TableViewSection headerTitle="Unique ID">
+                <TableViewRow title="Email" />
+                </TableViewSection>
+                
+                <TableViewSection headerTitle="Personal Information">
+                    <TableViewRow title="Lifestyle"  />
+                <TableViewRow title="Education"  />
+                <TableViewRow title="Automobile"  />
+                <TableViewRow title="Entertainment"  />
+                    
+                </TableViewSection>
+                
+                <TableViewSection headerTitle="Personal Information">
+                <TableViewRow title="Healthcare"  />
+                <TableViewRow title="Finance"  />
+                <TableViewRow title="Business"  />
+                <TableViewRow title="Jobs/Recruitment"  />
+                <TableViewRow title="Food products"  />
+                </TableViewSection> 
+                
+                
+                
+                
+      
 
-        <View borderColor="orange">
-            
-             <Label>Full Name</Label>
-            <TextField></TextField>
-            
-        </View>	    
+
+        </TableView>
 	</Window>
 </Alloy>

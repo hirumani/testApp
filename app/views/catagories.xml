@@ -2,7 +2,7 @@
 
     <Window id="catagorywindow" height="400" width="200" modal="true" >
 
-        has<TableView id="tableCatagorries" headerTitle="Select Catagory" onClick="checkTableRow"  >
+        <TableView id="tableCatagorries" headerTitle="Select Catagory" onClick="checkTableRow"  >
             
                 <TableViewRow title="Technology"  />
                 <TableViewRow title="Lifestyle"  />

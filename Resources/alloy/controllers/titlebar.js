@@ -14,36 +14,36 @@ function Controller() {
         layout: "horizontal"
     });
     $.__views.titlebar && $.addTopLevelView($.__views.titlebar);
-    $.__views.__alloyId26 = Ti.UI.createLabel({
+    $.__views.__alloyId37 = Ti.UI.createLabel({
         color: "black",
         text: "SmartBreak",
-        id: "__alloyId26"
+        id: "__alloyId37"
     });
-    $.__views.titlebar.add($.__views.__alloyId26);
-    $.__views.__alloyId27 = Ti.UI.createImageView({
+    $.__views.titlebar.add($.__views.__alloyId37);
+    $.__views.__alloyId38 = Ti.UI.createImageView({
         left: "13%",
         width: 60,
         height: 50,
         image: "/images/banner.png",
-        id: "__alloyId27"
+        id: "__alloyId38"
     });
-    $.__views.titlebar.add($.__views.__alloyId27);
-    $.__views.__alloyId28 = Ti.UI.createImageView({
+    $.__views.titlebar.add($.__views.__alloyId38);
+    $.__views.__alloyId39 = Ti.UI.createImageView({
         left: "13%",
         width: 60,
         height: 50,
         image: "/images/cinema.png",
-        id: "__alloyId28"
+        id: "__alloyId39"
     });
-    $.__views.titlebar.add($.__views.__alloyId28);
-    $.__views.__alloyId29 = Ti.UI.createImageView({
+    $.__views.titlebar.add($.__views.__alloyId39);
+    $.__views.__alloyId40 = Ti.UI.createImageView({
         left: "13%",
         width: 60,
         height: 50,
         image: "/images/wallet.png",
-        id: "__alloyId29"
+        id: "__alloyId40"
     });
-    $.__views.titlebar.add($.__views.__alloyId29);
+    $.__views.titlebar.add($.__views.__alloyId40);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);
